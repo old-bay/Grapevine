@@ -13,7 +13,27 @@ var loginUser = function (name, email, isPaid) {
     if (email === void 0) { email = "crab@oldbay.moe"; }
     if (isPaid === void 0) { isPaid = false; }
 };
-addTwo(5);
+var myValue = addTwo(5);
 getUpper("old bay");
 signUpUser("old bay", "old@bay,moe", false);
 loginUser("o", "o@h.moe");
+//function getValue(myVal: number) {
+//    if(myVal > 5) {
+//        return true;
+//    }
+//    return "200 OK";
+//}
+var getHello = function (s) {
+    return "";
+};
+// const heroes = [1, 2, 3]
+var heroes = ["thor", "spiderman", "ironman"];
+heroes.map(function (heroes) {
+    return "hero is ".concat(heroes);
+});
+function consoleError(errmsg) {
+    console.log(errmsg);
+}
+function handleError(errmsg) {
+    throw new Error(errmsg);
+}
