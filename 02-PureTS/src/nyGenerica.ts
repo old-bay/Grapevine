@@ -53,7 +53,6 @@ function aFunction<T, U extends Database>(val1: T, val2: U): obj {
 }
 
 // const values = aFunction(3, "4");
-
 interface Quiz {
     name: string,
     type: string
